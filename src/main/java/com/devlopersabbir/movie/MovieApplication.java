@@ -1,10 +1,13 @@
-package com.devlopersabbir.movieapi;
+package com.devlopersabbir.movie;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MovieapiApplication {
+public class MovieApplication {
+
 	public static void main(String[] args) {
-		SpringApplication.run(MovieapiApplication.class, args);
+		SpringApplication.run(MovieApplication.class, args);
 	}
+
 }
